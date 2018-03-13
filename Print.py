@@ -146,15 +146,6 @@ while keep_going == 'yes':
     #If the user puts anything other than 'y' the code will stop looping, otherwise it will continue
     keep_going = input("Do you want to place another order? (enter yes or no): ")
 
-   # while True:
-        #try:
-            #1keep_going = input("Do you want to place another order? (enter yes or no): ")
-    #    if keep_going in ('yes', 'no'):
-     #       break
-      #  else:
-       #     print("Not a valid option, please enter 'yes' or 'no'.")
-
-
 
     while True:
         if keep_going == 'no':

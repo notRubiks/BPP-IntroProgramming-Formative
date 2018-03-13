@@ -46,7 +46,7 @@ while keep_going == 'yes':
 
     while True:
         try:
-            NoChildren = int(input("How many children (2-12) tickets would you like to oder? "))
+            NoChildren = int(input("How many children (2-12) tickets would you like to order? "))
         except ValueError:
             print("You must enter a valid whole number. Please try again.")
         else:
@@ -145,7 +145,6 @@ while keep_going == 'yes':
     
     #If the user puts anything other than 'y' the code will stop looping, otherwise it will continue
     keep_going = input("Do you want to place another order? (enter yes or no): ")
-
 
     while True:
         if keep_going == 'no':
